@@ -13,6 +13,11 @@
 		09CECD1E1E5A8928005A31DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CECD1C1E5A8928005A31DA /* Main.storyboard */; };
 		09CECD201E5A8928005A31DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CECD1F1E5A8928005A31DA /* Assets.xcassets */; };
 		09CECD231E5A8928005A31DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CECD211E5A8928005A31DA /* LaunchScreen.storyboard */; };
+		09CECD2E1E5A9C70005A31DA /* GameRewardBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CECD2B1E5A9C70005A31DA /* GameRewardBoxView.m */; };
+		09CECD2F1E5A9C70005A31DA /* GameRewardOnlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CECD2D1E5A9C70005A31DA /* GameRewardOnlineView.m */; };
+		09CECD331E5AC1F6005A31DA /* game_gold_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CECD311E5AC1F6005A31DA /* game_gold_icon.png */; };
+		09CECD341E5AC1F6005A31DA /* game_reward_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CECD321E5AC1F6005A31DA /* game_reward_box.png */; };
+		A5A5D89DB430EEAEA9EBCA77 /* libPods-SimpleBoxShaking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ED15C918C53A4421615C26 /* libPods-SimpleBoxShaking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		09CECD1F1E5A8928005A31DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09CECD221E5A8928005A31DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09CECD241E5A8928005A31DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CECD2A1E5A9C70005A31DA /* GameRewardBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRewardBoxView.h; sourceTree = "<group>"; };
+		09CECD2B1E5A9C70005A31DA /* GameRewardBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRewardBoxView.m; sourceTree = "<group>"; };
+		09CECD2C1E5A9C70005A31DA /* GameRewardOnlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRewardOnlineView.h; sourceTree = "<group>"; };
+		09CECD2D1E5A9C70005A31DA /* GameRewardOnlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRewardOnlineView.m; sourceTree = "<group>"; };
+		09CECD301E5A9D20005A31DA /* Box_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box_PrefixHeader.pch; sourceTree = "<group>"; };
+		09CECD311E5AC1F6005A31DA /* game_gold_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_gold_icon.png; sourceTree = "<group>"; };
+		09CECD321E5AC1F6005A31DA /* game_reward_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_reward_box.png; sourceTree = "<group>"; };
+		18ED15C918C53A4421615C26 /* libPods-SimpleBoxShaking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleBoxShaking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCB1DD65F5971D649D81077 /* Pods-SimpleBoxShaking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleBoxShaking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleBoxShaking/Pods-SimpleBoxShaking.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2AF3763BE17B7D70810B2D /* Pods-SimpleBoxShaking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleBoxShaking.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleBoxShaking/Pods-SimpleBoxShaking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A5D89DB430EEAEA9EBCA77 /* libPods-SimpleBoxShaking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +60,8 @@
 			children = (
 				09CECD121E5A8928005A31DA /* SimpleBoxShaking */,
 				09CECD111E5A8928005A31DA /* Products */,
+				D640A39E182A17240F756C3A /* Pods */,
+				F59CDBD1232BB181F76516A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +76,12 @@
 		09CECD121E5A8928005A31DA /* SimpleBoxShaking */ = {
 			isa = PBXGroup;
 			children = (
+				09CECD311E5AC1F6005A31DA /* game_gold_icon.png */,
+				09CECD321E5AC1F6005A31DA /* game_reward_box.png */,
+				09CECD2A1E5A9C70005A31DA /* GameRewardBoxView.h */,
+				09CECD2B1E5A9C70005A31DA /* GameRewardBoxView.m */,
+				09CECD2C1E5A9C70005A31DA /* GameRewardOnlineView.h */,
+				09CECD2D1E5A9C70005A31DA /* GameRewardOnlineView.m */,
 				09CECD161E5A8928005A31DA /* AppDelegate.h */,
 				09CECD171E5A8928005A31DA /* AppDelegate.m */,
 				09CECD191E5A8928005A31DA /* ViewController.h */,
@@ -75,8 +99,26 @@
 			isa = PBXGroup;
 			children = (
 				09CECD141E5A8928005A31DA /* main.m */,
+				09CECD301E5A9D20005A31DA /* Box_PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D640A39E182A17240F756C3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DCB1DD65F5971D649D81077 /* Pods-SimpleBoxShaking.debug.xcconfig */,
+				BA2AF3763BE17B7D70810B2D /* Pods-SimpleBoxShaking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F59CDBD1232BB181F76516A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18ED15C918C53A4421615C26 /* libPods-SimpleBoxShaking.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09CECD271E5A8928005A31DA /* Build configuration list for PBXNativeTarget "SimpleBoxShaking" */;
 			buildPhases = (
+				9502EBAF9E6EC89D96E7D183 /* [CP] Check Pods Manifest.lock */,
 				09CECD0C1E5A8928005A31DA /* Sources */,
 				09CECD0D1E5A8928005A31DA /* Frameworks */,
 				09CECD0E1E5A8928005A31DA /* Resources */,
+				B8BFAD2B4C92C404141D991D /* [CP] Embed Pods Frameworks */,
+				B28312564BA7428A9DB9F87C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,7 +155,7 @@
 				TargetAttributes = {
 					09CECD0F1E5A8928005A31DA = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = PWGSWWVNXA;
+						DevelopmentTeam = RN88R9FZQ2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,6 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CECD331E5AC1F6005A31DA /* game_gold_icon.png in Resources */,
+				09CECD341E5AC1F6005A31DA /* game_reward_box.png in Resources */,
 				09CECD231E5A8928005A31DA /* LaunchScreen.storyboard in Resources */,
 				09CECD201E5A8928005A31DA /* Assets.xcassets in Resources */,
 				09CECD1E1E5A8928005A31DA /* Main.storyboard in Resources */,
@@ -146,12 +193,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9502EBAF9E6EC89D96E7D183 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B28312564BA7428A9DB9F87C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleBoxShaking/Pods-SimpleBoxShaking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8BFAD2B4C92C404141D991D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleBoxShaking/Pods-SimpleBoxShaking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09CECD0C1E5A8928005A31DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				09CECD1B1E5A8928005A31DA /* ViewController.m in Sources */,
+				09CECD2F1E5A9C70005A31DA /* GameRewardOnlineView.m in Sources */,
+				09CECD2E1E5A9C70005A31DA /* GameRewardBoxView.m in Sources */,
 				09CECD181E5A8928005A31DA /* AppDelegate.m in Sources */,
 				09CECD151E5A8928005A31DA /* main.m in Sources */,
 			);
@@ -269,24 +366,30 @@
 		};
 		09CECD281E5A8928005A31DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCB1DD65F5971D649D81077 /* Pods-SimpleBoxShaking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PWGSWWVNXA;
+				DEVELOPMENT_TEAM = RN88R9FZQ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/hellow/Documents/workplace/MyProject/SimpleBoxShaking/SimpleBoxShaking/Box_PrefixHeader.pch;
 				INFOPLIST_FILE = SimpleBoxShaking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = linl.project.SimpleBoxShaking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.babycran.app121212;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		09CECD291E5A8928005A31DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2AF3763BE17B7D70810B2D /* Pods-SimpleBoxShaking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PWGSWWVNXA;
+				DEVELOPMENT_TEAM = RN88R9FZQ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/hellow/Documents/workplace/MyProject/SimpleBoxShaking/SimpleBoxShaking/Box_PrefixHeader.pch;
 				INFOPLIST_FILE = SimpleBoxShaking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = linl.project.SimpleBoxShaking;
+				PRODUCT_BUNDLE_IDENTIFIER = com.babycran.app121212;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -310,6 +413,7 @@
 				09CECD291E5A8928005A31DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
